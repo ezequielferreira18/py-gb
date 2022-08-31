@@ -1,4 +1,6 @@
 # Aula 19 - Dicionários
+# CURSO GIT - PAREI EM 25M18S: https://www.youtube.com/watch?v=5BYm7UdCrX0
+# AULA 19 - PAREI EM  9M56S: https://www.youtube.com/watch?v=ZWj8o692qGY&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH&index=22
 
 # Para criar um dicionário uso as {}
 dados = {'nome': 'Pedro', 'idade': 25}
