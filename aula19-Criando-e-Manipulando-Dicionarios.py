@@ -27,10 +27,22 @@ print(filme.items())
 for k, v in filme.items():
     print(f'0 {k} é {v}')
 
-print('\n# ---------- Exercícios ---------- #\n')
+print('\n# ---------- EXERCÍCIOS ---------- #\n')
 
 pessoas = {'nome': 'Ezequiel', 'sexo': 'M', 'idade': 38}
 print(pessoas)
 print(pessoas['nome'])
 print(pessoas['idade'])
 print(f'{pessoas["nome"]} tem {pessoas["idade"]} anos.')
+print(pessoas.keys())
+print(pessoas.values())
+print(pessoas.items())
+
+for k in pessoas.keys():
+    print(k)
+
+for v in pessoas.values():
+    print(v)
+
+for k, v in pessoas.items():
+    print(f'{k} = {v}')
