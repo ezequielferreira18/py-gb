@@ -46,3 +46,21 @@ for v in pessoas.values():
 
 for k, v in pessoas.items():
     print(f'{k} = {v}')
+
+# Remover um item do dicionário
+del pessoas['sexo']
+
+for k, v in pessoas.items():
+    print(f'{k} = {v}')
+
+# Modificar o valor de um item do dicionário
+pessoas['nome'] = 'Luciane'
+
+for k, v in pessoas.items():
+    print(f'{k} = {v}')
+
+# Adicionar um item
+pessoas['peso'] = 66.0
+
+for k, v in pessoas.items():
+    print(f'{k} = {v}')
